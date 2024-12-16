@@ -2,9 +2,12 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "vite",
-        "build": "vite build"
+           "dev": "npm run development",
+    "production": "mix --production",
+    "prod": "npm run production",
+    "development": "mix"
     },
+    
     "devDependencies": {
         "axios": "^1.7.4",
         "laravel-vite-plugin": "^1.0",
