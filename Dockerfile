@@ -32,3 +32,4 @@ RUN npm install && npm run prod
 # Expose port and run PHP server
 EXPOSE 80
 CMD ["php-fpm"]
+ 
